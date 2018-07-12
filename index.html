@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+   <h1>Registration form</h1>
+   
+   <form method="GET">
+        <div id="userInfo">
+		    First name: <input type="text" name="firstName" placeholder="John">
+		    Last name: <input type="text" name="lastName" placeholder="Doe">
+		    Gender:
+		    <input type="radio" name="gender" value="Male">Male
+		    <input type="radio" name="gender" value="Female">Female
+		    <input type="radio" name="gender" value="Other">Other<br>
+		</div>
+		<div id="loginPass">
+            Email: <input type="email" required name="email">
+		    Password: <input type="password" required min="8" name="password">
+		</div>
+		<div id="bday">
+            Birthday: <input type="date" name="birthDate">
+		</div>
+		<div id="terms">
+            <label for="coding">I agree to the terms and conditions</label><input type="checkbox" id="coding">
+		</div>
+		<div id="buttons">
+		    <input type="submit" value="Register">
+		    <input type="reset">
+		</div>
+    </form>
+   
+    <script src=""></script>
+</body>
+</html>
